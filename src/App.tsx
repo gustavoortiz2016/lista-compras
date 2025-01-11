@@ -10,6 +10,9 @@ function App() {
       <NavLink to="/login" end>
        Login 
       </NavLink>
+      <NavLink to="/maestroproductos" end>
+        Productos 
+      </NavLink>
     </nav>
     </>
   )
