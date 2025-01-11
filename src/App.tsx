@@ -1,8 +1,7 @@
-import { NavLink } from "react-router";
+import { NavLink } from 'react-router'
 import './App.css'
 
 function App() {
-
   return (
     <>
     <h1>Lista de compras</h1>
