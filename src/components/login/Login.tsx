@@ -1,10 +1,11 @@
-const PLACEHOLDER = "Password XD"
+import "./style.css"
+const PLACEHOLDER = "Password"
 
-const Login = ()=>{
-    return(<>
-   <input type="text" value={""} placeholder="User name" style={{"color":"red"}} /><br /> 
-   <input type="password" value={""} placeholder={PLACEHOLDER} /><br /> 
-    
+const Login = () => {
+    return (<>
+        <input type="text" value={""} placeholder="User name" style={{ }} /><br />
+        <input type="password" value={""} placeholder={PLACEHOLDER} /><br />
+        <input className="borde" type="button" value={"Agregar"} />
     </>)
 }
 
