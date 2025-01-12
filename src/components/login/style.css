@@ -1,3 +1,25 @@
-.borde{
-    border-radius: 5px;
+.container{
+    background-image: url(/home/earamirez/Pro/lista-compras/src/img/apple.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
 }
+.center {
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    }
+    .one{
+        border: 1px solid black; 
+    }
+    .two{
+        border: 1px solid black;
+        margin-top: 15px;
+    }
+    
