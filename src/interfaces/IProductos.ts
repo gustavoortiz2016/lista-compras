@@ -1,12 +1,18 @@
 interface IProductos {
   id?: string
   nombre: string
-  precio: number
+  precioSugerido: number
   descripcion?: string
-  imagen?: string
-  stock?: number
-  categoria?: string
-  cantidad?: number
+  activo?: boolean
+  medida?: IMedida
+}
+
+interface IMedida {
+  id?: string
+  nombre: string
+  descripcion?: string
+  activo?: boolean
 }
 
 export default IProductos
+export type { IMedida }

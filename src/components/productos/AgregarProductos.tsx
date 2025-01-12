@@ -1,19 +1,24 @@
 // Componete para agregar productos
-import React, { useId } from 'react'
+import React, { useId, useState, useContext, useEffect } from 'react'
 
-import useProductos from '../../hooks/useProductos'
+import { ProductosContext } from '../../context/productosContext'
+import IProductos from '../../interfaces/IProductos'
 
 const AgregarProductos: React.FC = () => {
+
   const txtNombreProductoId = useId()
   const txtPrecioProductoId = useId()
 
-  const {
-    nombreProducto,
-    precioProducto,
-    setNombreProducto,
-    setPrecioProducto,
-    agregarProducto,
-  } = useProductos('Producto 1', 0.5)
+  const {setLstProductos} = useContext(ProductosContext)
+
+  const [producto, setProducto] = useState<IProductos>({
+    nombre: '',
+    precioSugerido: 0,
+  })
+
+  useEffect(() => {
+
+  }, [producto])
 
   return (
     <>
@@ -23,9 +28,9 @@ const AgregarProductos: React.FC = () => {
           type="text"
           id={txtNombreProductoId}
           placeholder="Ingresa el nombre del producto"
-          defaultValue={nombreProducto}
+          defaultValue={producto.nombre}
           onKeyUp={(e: React.KeyboardEvent<HTMLInputElement>) => {
-            setNombreProducto((e.target as HTMLInputElement).value)
+            setProducto({...producto, nombre: (e.target as HTMLInputElement).value})
           }}
         />
       </div>
@@ -37,9 +42,9 @@ const AgregarProductos: React.FC = () => {
           min={0.5}
           max={100}
           step={0.5}
-          defaultValue={precioProducto}
+          defaultValue={producto.precioSugerido}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-            setPrecioProducto(parseFloat((e.target as HTMLInputElement).value))
+            setProducto({...producto, precioSugerido: parseFloat((e.target as HTMLInputElement).value)})
           }}
         />
       </div>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Table } from 'react-bootstrap'
 import IProductos from '../../interfaces/IProductos.ts'
 
 interface TablaProductosProps {
@@ -12,7 +13,7 @@ const TablaProductos: React.FC<TablaProductosProps> = ({ listaProductos }) => {
   }, [listaProductos])
 
   return (
-    <table>
+    <Table striped bordered hover>
       <thead>
         <tr>
           <th>Nombre</th>
@@ -24,12 +25,12 @@ const TablaProductos: React.FC<TablaProductosProps> = ({ listaProductos }) => {
           return (
             <tr key={producto.id}>
               <td>{producto.nombre}</td>
-              <td>$ {producto.precio}</td>
+              <td>$ {producto.precioSugerido}</td>
             </tr>
           )
         })}
       </tbody>
-    </table>
+    </Table>
   )
 }
 
