@@ -1,16 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect,useContext } from 'react'
 import { Table } from 'react-bootstrap'
 import IProductos from '../../interfaces/IProductos.ts'
+import { ProductosContext} from '../../context/productosContext.tsx'
 
-interface TablaProductosProps {
-  listaProductos: IProductos[]
-}
+const TablaProductos: React.FC = () => {
 
-const TablaProductos: React.FC<TablaProductosProps> = ({ listaProductos }) => {
-  const [productos, setProductos] = useState<IProductos[]>(listaProductos)
-  useEffect(() => {
-    setProductos(listaProductos)
-  }, [listaProductos])
+  const {lstProductos: listaProductos} = useContext(ProductosContext)
 
   return (
     <Table striped bordered hover>
@@ -21,7 +16,7 @@ const TablaProductos: React.FC<TablaProductosProps> = ({ listaProductos }) => {
         </tr>
       </thead>
       <tbody>
-        {productos.map((producto) => {
+        {listaProductos.map((producto: IProductos) => {
           return (
             <tr key={producto.id}>
               <td>{producto.nombre}</td>

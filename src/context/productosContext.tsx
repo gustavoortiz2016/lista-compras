@@ -17,3 +17,4 @@ export const ProductosProvider = ({ children }: { children: ReactNode }) => {
     </ProductosContext.Provider>
   )
 }
+export default ProductosProvider
