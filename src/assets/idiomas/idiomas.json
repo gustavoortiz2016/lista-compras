@@ -40,6 +40,23 @@
             "error": {
                 "correoElectronico": "El correo electrónico es requerido"
             }
+        },
+        "listaIdiomas": {
+            "titulo": "Idiomas",
+            "lista": [
+                {
+                    "codigo": "es-sv",
+                    "nombre": "Español"
+                },
+                {
+                    "codigo": "en-us",
+                    "nombre": "Inglés"
+                },
+                {
+                    "codigo": "fr-fr",
+                    "nombre": "Francés"
+                }
+            ]
         }
     },
     "en-us": {
@@ -83,6 +100,23 @@
             "error": {
                 "correoElectronico": "The email is required"
             }
+        },
+        "listaIdiomas": {
+            "titulo": "Languages",
+            "lista": [
+                {
+                    "codigo": "es-sv",
+                    "nombre": "Spanish"
+                },
+                {
+                    "codigo": "en-us",
+                    "nombre": "English"
+                },
+                {
+                    "codigo": "fr-fr",
+                    "nombre": "French"
+                }
+            ]
         }
     },
     "fr-fr": {
@@ -126,6 +160,23 @@
             "error": {
                 "correoElectronico": "L'email est requis"
             }
+        },
+        "listaIdiomas": {
+            "titulo": "Langues",
+            "lista": [
+                {
+                    "codigo": "es-sv",
+                    "nombre": "Espagnol"
+                },
+                {
+                    "codigo": "en-us",
+                    "nombre": "Anglais"
+                },
+                {
+                    "codigo": "fr-fr",
+                    "nombre": "Français"
+                }
+            ]
         }
     }
 }
