@@ -1,0 +1,53 @@
+{
+    "es-sv": {
+        "nombreApp": "Lista de compras",
+        "titulo": "Lista de compras",
+        "subtitulo": "Agrega los productos que necesitas comprar",
+        "login": {
+            "titulo": "Iniciar sesión",
+            "usuario": "Usuario",
+            "contrasena": "Contraseña",
+            "boton": "Iniciar sesión",
+            "recuerdame": "Recuérdame",
+            "error": {
+                "usuario": "El usuario es requerido",
+                "contrasena": "La contraseña es requerida",
+                "credenciales": "Credenciales incorrectas"
+            }
+        }
+    },
+    "en-us": {
+        "nombreApp": "Shopping list",
+        "titulo": "Shopping list",
+        "subtitulo": "Add the products you need to buy",
+        "login": {
+            "titulo": "Sign in",
+            "usuario": "User",
+            "contrasena": "Password",
+            "boton": "Sign in",
+            "recuerdame": "Remember me",
+            "error": {
+                "usuario": "The user is required",
+                "contrasena": "The password is required",
+                "credenciales": "Incorrect credentials"
+            }
+        }
+    },
+    "fr-fr": {
+        "nombreApp": "Liste de courses",
+        "titulo": "Liste de courses",
+        "subtitulo": "Ajoutez les produits dont vous avez besoin pour acheter",
+        "login": {
+            "titulo": "Se connecter",
+            "usuario": "Utilisateur",
+            "contrasena": "Mot de passe",
+            "boton": "Se connecter",
+            "recuerdame": "Souviens-toi de moi",
+            "error": {
+                "usuario": "L'utilisateur est requis",
+                "contrasena": "Le mot de passe est requis",
+                "credenciales": "Identifiants incorrects"
+            }
+        }
+    }
+}
