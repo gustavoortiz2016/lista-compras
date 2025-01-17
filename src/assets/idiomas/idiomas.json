@@ -1,0 +1,182 @@
+{
+    "es-sv": {
+        "nombreApp": "Lista de compras",
+        "titulo": "Lista de compras",
+        "subtitulo": "Agrega los productos que necesitas comprar",
+        "login": {
+            "titulo": "Iniciar sesión",
+            "usuario": "Usuario",
+            "contrasena": "Contraseña",
+            "boton": "Iniciar sesión",
+            "recuerdame": "Recuérdame",
+            "error": {
+                "usuario": "El usuario es requerido",
+                "contrasena": "La contraseña es requerida",
+                "credenciales": "Credenciales incorrectas"
+            }
+        },
+        "registro": {
+            "titulo": "Registro",
+            "usuario": "Usuario",
+            "contrasena": "Contraseña",
+            "repiteContrasena": "Repite la contraseña",
+            "correoElectronico": "Correo electrónico",
+            "linkTerminos": "Ver términos y condiciones",
+            "aceptoTerminos": "Acepto los términos y condiciones",
+            "boton": "Registrarse",
+            "error": {
+                "usuario": "El usuario es requerido",
+                "contrasena": "La contraseña es requerida",
+                "correoElectronico": "El correo electrónico es requerido",
+                "repiteContrasena": "La contraseña repetida es requerida",
+                "coincidenContrasenas": "Las contraseñas no coinciden",
+                "aceptoTerminos": "Debes aceptar los términos y condiciones"
+            }
+        },
+        "recuperarContrasena": {
+            "titulo": "Recuperar contraseña",
+            "correoElectronico": "Correo electrónico",
+            "boton": "Recuperar contraseña",
+            "error": {
+                "correoElectronico": "El correo electrónico es requerido"
+            }
+        },
+        "listaIdiomas": {
+            "titulo": "Idiomas",
+            "lista": [
+                {
+                    "codigo": "es-sv",
+                    "nombre": "Español"
+                },
+                {
+                    "codigo": "en-us",
+                    "nombre": "Inglés"
+                },
+                {
+                    "codigo": "fr-fr",
+                    "nombre": "Francés"
+                }
+            ]
+        }
+    },
+    "en-us": {
+        "nombreApp": "Shopping list",
+        "titulo": "Shopping list",
+        "subtitulo": "Add the products you need to buy",
+        "login": {
+            "titulo": "Sign in",
+            "usuario": "User",
+            "contrasena": "Password",
+            "boton": "Sign in",
+            "recuerdame": "Remember me",
+            "error": {
+                "usuario": "The user is required",
+                "contrasena": "The password is required",
+                "credenciales": "Incorrect credentials"
+            }
+        },
+        "registro": {
+            "titulo": "Register",
+            "usuario": "User",
+            "contrasena": "Password",
+            "repiteContrasena": "Repeat the password",
+            "correoElectronico": "Email",
+            "linkTerminos": "See terms and conditions",
+            "aceptoTerminos": "I accept the terms and conditions",
+            "boton": "Register",
+            "error": {
+                "usuario": "The user is required",
+                "contrasena": "The password is required",
+                "correoElectronico": "The email is required",
+                "repiteContrasena": "The repeated password is required",
+                "coincidenContrasenas": "The passwords do not match",
+                "aceptoTerminos": "You must accept the terms and conditions"
+            }
+        },
+        "recuperarContrasena": {
+            "titulo": "Recover password",
+            "correoElectronico": "Email",
+            "boton": "Recover password",
+            "error": {
+                "correoElectronico": "The email is required"
+            }
+        },
+        "listaIdiomas": {
+            "titulo": "Languages",
+            "lista": [
+                {
+                    "codigo": "es-sv",
+                    "nombre": "Spanish"
+                },
+                {
+                    "codigo": "en-us",
+                    "nombre": "English"
+                },
+                {
+                    "codigo": "fr-fr",
+                    "nombre": "French"
+                }
+            ]
+        }
+    },
+    "fr-fr": {
+        "nombreApp": "Liste de courses",
+        "titulo": "Liste de courses",
+        "subtitulo": "Ajoutez les produits dont vous avez besoin pour acheter",
+        "login": {
+            "titulo": "Se connecter",
+            "usuario": "Utilisateur",
+            "contrasena": "Mot de passe",
+            "boton": "Se connecter",
+            "recuerdame": "Souviens-toi de moi",
+            "error": {
+                "usuario": "L'utilisateur est requis",
+                "contrasena": "Le mot de passe est requis",
+                "credenciales": "Identifiants incorrects"
+            }
+        },
+        "registro": {
+            "titulo": "Registre",
+            "usuario": "Utilisateur",
+            "contrasena": "Mot de passe",
+            "repiteContrasena": "Répétez le mot de passe",
+            "correoElectronico": "Email",
+            "linkTerminos": "Voir les termes et conditions",
+            "aceptoTerminos": "J'accepte les termes et conditions",
+            "boton": "Registre",
+            "error": {
+                "usuario": "L'utilisateur est requis",
+                "contrasena": "Le mot de passe est requis",
+                "correoElectronico": "L'email est requis",
+                "repiteContrasena": "Le mot de passe répété est requis",
+                "coincidenContrasenas": "Les mots de passe ne correspondent pas",
+                "aceptoTerminos": "Vous devez accepter les termes et conditions"
+            }
+        },
+        "recuperarContrasena": {
+            "titulo": "Récupérer le mot de passe",
+            "correoElectronico": "Email",
+            "boton": "Récupérer le mot de passe",
+            "error": {
+                "correoElectronico": "L'email est requis"
+            }
+        },
+        "listaIdiomas": {
+            "titulo": "Langues",
+            "lista": [
+                {
+                    "codigo": "es-sv",
+                    "nombre": "Espagnol"
+                },
+                {
+                    "codigo": "en-us",
+                    "nombre": "Anglais"
+                },
+                {
+                    "codigo": "fr-fr",
+                    "nombre": "Français"
+                }
+            ]
+        }
+    }
+}
