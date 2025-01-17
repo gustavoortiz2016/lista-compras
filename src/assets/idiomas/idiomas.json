@@ -3,6 +3,8 @@
         "nombreApp": "Lista de compras",
         "titulo": "Lista de compras",
         "subtitulo": "Agrega los productos que necesitas comprar",
+        "bienvenido": "Bienvenido a la Lista de Compras",
+        "descripcion": "La aplicación que te ayuda a organizar tus comprasOrganiza y gestiona tus compras de manera fácil y rápida.",
         "login": {
             "titulo": "Iniciar sesión",
             "usuario": "Usuario",
@@ -63,6 +65,8 @@
         "nombreApp": "Shopping list",
         "titulo": "Shopping list",
         "subtitulo": "Add the products you need to buy",
+        "bienvenido": "Welcome to the Shopping List",
+        "descripcion": "The application that helps you organize your purchasesOrganize and manage your purchases easily and quickly.",
         "login": {
             "titulo": "Sign in",
             "usuario": "User",
@@ -123,6 +127,8 @@
         "nombreApp": "Liste de courses",
         "titulo": "Liste de courses",
         "subtitulo": "Ajoutez les produits dont vous avez besoin pour acheter",
+        "bienvenido": "Bienvenue dans la liste de courses",
+        "descripcion": "L'application qui vous aide à organiser vos achatsOrganisez et gérez vos achats facilement et rapidement.",
         "login": {
             "titulo": "Se connecter",
             "usuario": "Utilisateur",

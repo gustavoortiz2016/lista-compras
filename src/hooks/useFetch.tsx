@@ -9,8 +9,8 @@ const useFetch = (url: string) => {
         fetch(url)
         .then(res => res.json())
         .then(data => {
+            console.log(data)
             setData(data)
-            setLoading(false)
         }).catch(err => 
             setError(err)
         
