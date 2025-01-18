@@ -19,7 +19,3 @@ Ejecutar Storybook
 ```bash
 npm run storybook
 ```
-
-
-
-

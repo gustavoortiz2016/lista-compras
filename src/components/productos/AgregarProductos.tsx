@@ -5,20 +5,17 @@ import { ProductosContext } from '../../context/productosContext'
 import IProductos from '../../interfaces/IProductos'
 
 const AgregarProductos: React.FC = () => {
-
   const txtNombreProductoId = useId()
   const txtPrecioProductoId = useId()
 
-  const {setLstProductos} = useContext(ProductosContext)
+  const { setLstProductos } = useContext(ProductosContext)
 
   const [producto, setProducto] = useState<IProductos>({
     nombre: '',
     precioSugerido: 0,
   })
 
-  useEffect(() => {
-
-  }, [producto])
+  useEffect(() => {}, [producto])
 
   return (
     <>
@@ -30,7 +27,10 @@ const AgregarProductos: React.FC = () => {
           placeholder="Ingresa el nombre del producto"
           defaultValue={producto.nombre}
           onKeyUp={(e: React.KeyboardEvent<HTMLInputElement>) => {
-            setProducto({...producto, nombre: (e.target as HTMLInputElement).value})
+            setProducto({
+              ...producto,
+              nombre: (e.target as HTMLInputElement).value,
+            })
           }}
         />
       </div>
@@ -44,7 +44,10 @@ const AgregarProductos: React.FC = () => {
           step={0.5}
           defaultValue={producto.precioSugerido}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-            setProducto({...producto, precioSugerido: parseFloat((e.target as HTMLInputElement).value)})
+            setProducto({
+              ...producto,
+              precioSugerido: parseFloat((e.target as HTMLInputElement).value),
+            })
           }}
         />
       </div>

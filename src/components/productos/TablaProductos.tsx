@@ -1,11 +1,10 @@
-import React, { useState, useEffect,useContext } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { Table } from 'react-bootstrap'
 import IProductos from '../../interfaces/IProductos.ts'
-import { ProductosContext} from '../../context/productosContext.tsx'
+import { ProductosContext } from '../../context/productosContext.tsx'
 
 const TablaProductos: React.FC = () => {
-
-  const {lstProductos: listaProductos} = useContext(ProductosContext)
+  const { lstProductos: listaProductos } = useContext(ProductosContext)
 
   return (
     <Table striped bordered hover>
