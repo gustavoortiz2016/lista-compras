@@ -17,6 +17,12 @@ export interface IListaIdiomas {
     nombre: string
   }[]
 }
+export interface IProductosPage {
+  titulo: string
+  subtitulo: string
+  bienvenido: string
+  descripcion: string
+}
 export default interface IApp {
   nombreApp: string
   version: string
@@ -26,4 +32,5 @@ export default interface IApp {
   descripcion: string
   login: ILoginLenguaje
   listaIdiomas: IListaIdiomas
+  productos: IProductosPage
 }

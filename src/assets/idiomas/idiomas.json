@@ -43,6 +43,25 @@
         "correoElectronico": "El correo electrónico es requerido"
       }
     },
+    "producto": {
+      "titulo": "Lista de productos",
+      "subtitulo": "Agrega los productos que necesitas comprar",
+      "agregar": "Agregar",
+      "producto": "Producto",
+      "cantidad": "Cantidad",
+      "precio": "Precio",
+      "total": "Total",
+      "editar": "Editar",
+      "eliminar": "Eliminar",
+      "guardar": "Guardar",
+      "cancelar": "Cancelar",
+      "totalProductos": "Total de productos",
+      "error": {
+        "producto": "El producto es requerido",
+        "cantidad": "La cantidad es requerida",
+        "precio": "El precio es requerido"
+      }
+    },
     "listaIdiomas": {
       "titulo": "Idiomas",
       "lista": [
@@ -63,7 +82,7 @@
   },
   "en-us": {
     "nombreApp": "Shopping list",
-    "titulo": "Shopping list",
+    "titulo": "Purchase list",
     "subtitulo": "Add the products you need to buy",
     "bienvenido": "Welcome to the Shopping List",
     "descripcion": "This application allows you to keep track and shopping list for supermarket and market. Keeping an order of necessary products for the house, and always have at hand, the shopping list. If you are at home you can add the products you need. When you are outside you already have the list and if you can go shopping. It also allows you to list products with prices that can be updated to have an idea of the necessary budget. You can also have reports that indicate which products you consume the most, how much you spend on super and market.",
@@ -103,6 +122,25 @@
       "boton": "Recover password",
       "error": {
         "correoElectronico": "The email is required"
+      }
+    },
+    "producto": {
+      "titulo": "Product list",
+      "subtitulo": "Add the products you need to buy",
+      "agregar": "Add",
+      "producto": "Product",
+      "cantidad": "Quantity",
+      "precio": "Price",
+      "total": "Total",
+      "editar": "Edit",
+      "eliminar": "Delete",
+      "guardar": "Save",
+      "cancelar": "Cancel",
+      "totalProductos": "Total products",
+      "error": {
+        "producto": "The product is required",
+        "cantidad": "The quantity is required",
+        "precio": "The price is required"
       }
     },
     "listaIdiomas": {
@@ -165,6 +203,25 @@
       "boton": "Récupérer le mot de passe",
       "error": {
         "correoElectronico": "L'email est requis"
+      }
+    },
+    "producto": {
+      "titulo": "Liste de courses",
+      "subtitulo": "Ajoutez les produits dont vous avez besoin pour acheter",
+      "agregar": "Ajouter",
+      "producto": "Produit",
+      "cantidad": "Quantité",
+      "precio": "Prix",
+      "total": "Total",
+      "editar": "Modifier",
+      "eliminar": "Supprimer",
+      "guardar": "Sauvegarder",
+      "cancelar": "Annuler",
+      "totalProductos": "Total des produits",
+      "error": {
+        "producto": "Le produit est requis",
+        "cantidad": "La quantité est requise",
+        "precio": "Le prix est requis"
       }
     },
     "listaIdiomas": {
